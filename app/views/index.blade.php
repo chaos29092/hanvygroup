@@ -116,29 +116,20 @@
         		<div class="col-md-8" id="indextab">
                     <div class="panel panel-primary">
                         <div class="panel-heading">
-                            <h3 class="panel-title"> >> </h3>
+                            <h3 class="panel-title"> >> ABOUT US</h3>
                             <span class="pull-right">
-                                <!-- Tabs -->
-                                <ul class="nav panel-tabs">
-                                    <li class="active"><a href="#tab1" data-toggle="tab">ABOUT US</a></li>
-                                    <li><a href="#tab2" data-toggle="tab">SERVICE</a></li>
-                                </ul>
+
                             </span>
                         </div>
                         <div class="panel-body">
                             <div class="tab-content">
-                                <div class="tab-pane active" id="tab1">
+
                                     <h3 class="text-center">Zhengzhou HANVY Machinery And <br/> Equipment Co., Ltd.</h3>
                                     <p>
                                     is the exportation department of Hanvy group of companies. Hanvy group of company is set up by 6 factories. The 6 factories are brothers companies located within Henan province, separately about 50-350km away from Zhengzhou the capital City of Henan province. In order to deal with commodity inspection, customs declaration, fast orders processing and urgent responds to the customer enquiries, quick responds to the customers after sales services, maintaining and satisfaction of the customers is our priority goal...
                                     </p>
-                                    </div>
-                                <div class="tab-pane" id="tab2">
-                                    <h3 class="text-center">Hanvy provides installation, <br/>debugging service and easy wear parts</h3>
-                                    <p>We offer modeling test and test report for large final equipments, the customer is invited to our factory for visiting and observing the test.
-                                       Hanvy offers on-site field service for installation and debugging. Hanvy is committed to having all easy wear parts on hand to keep your project running.
-                                       </p>
-                                </div>
+
+
 
                                 </div>
                             </div>
