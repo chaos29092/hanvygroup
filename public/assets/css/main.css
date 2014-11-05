@@ -97,22 +97,6 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -301,4 +285,169 @@ textarea {
     h3 {
         page-break-after: avoid;
     }
+}
+
+/*custom css*/
+/*top*/
+#top {
+    border-top: 4px solid #ecbf1e;
+    background-image: url("../../img/top_background.jpg");
+}
+#top p {
+    margin-top: 50px;
+    margin-bottom: auto;
+}
+
+/*导航条*/
+#nav {
+    background-color: #2a77c9;
+    box-shadow: 3px 3px 5px #888888;
+    border: none;
+    margin-bottom: 2px;
+}
+
+.btn{
+    margin-bottom: 4px;
+    box-shadow: 1px 1px 5px #888888;
+}
+
+.btn-xs{
+    font-weight: 300;
+}
+
+.btn-sky {
+    color: #fff;
+    background-color: #2a77c9;
+    border-bottom:2px solid #098aa9;
+}
+
+.btn-sky:hover,.btn-sky.active:focus, .btn-sky:focus, .open>.dropdown-toggle.btn-sky {
+    color: #fff;
+    background-color: #ecbe20;
+    border-bottom:2px solid #2192ad;
+    outline: none;
+}
+
+.btn-sky:active, .btn-sky.active {
+    color: #fff;
+    background-color: #ecbe20;
+    outline-offset: none;
+    margin-top: 2px;
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus {
+    outline: none;
+    outline-offset: 0px;
+}
+
+#bs-megadropdown-tabs button {
+    border-radius: 0px;
+    font-size: 14px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+/* Carousel Styles */
+.carousel-inner img {
+    width: 100%;
+    max-height: 100%
+}
+
+#carousel {
+    box-shadow: 5px 5px 50px #3d95fa;
+}
+
+/*product list*/
+#productList {
+    background-image: url("../../img/product_title.jpg");
+    margin-top: 25px;
+    height: 30px;
+}
+#productList h4 {
+    margin-top: 6px;
+    margin-bottom: 0px;
+    margin-left: 30px;
+    color: #ffffff;
+}
+#productImg {
+    margin-top: 20px;
+    box-shadow: 10px 10px 20px #d6e3fa;
+    border-bottom:2px solid #2192ad;
+}
+
+
+/*tab*/
+/*Panel tabs*/
+.panel-tabs {
+    position: relative;
+    bottom: 30px;
+    clear:both;
+    border-bottom: 1px solid transparent;
+}
+
+.panel-tabs > li {
+    float: left;
+    margin-bottom: -1px;
+}
+
+.panel-tabs > li > a {
+    margin-right: 2px;
+    margin-top: 4px;
+    line-height: .85;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+    color: #ffffff;
+}
+
+.panel-tabs > li > a:hover {
+    border-color: transparent;
+    color: #ffffff;
+    background-color: transparent;
+}
+
+.panel-tabs > li.active > a,
+.panel-tabs > li.active > a:hover,
+.panel-tabs > li.active > a:focus {
+    color: #fff;
+    cursor: default;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    background-color: #ec931f;
+    border-bottom-color: transparent;
+}
+
+#indextab {
+    padding-left: 0px;
+    font-size: 18px;
+}
+h3.panel-title {
+    font-size: 20px;
+}
+
+.panel .panel-heading {
+    border-radius: 0px;
+}
+.panel.panel-primary {
+    border-radius: 0px;
+}
+
+#tour {
+    background-image: url("../../img/index_tour.jpg");
+    height: 45px;
+}
+#tour h4 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 30px;
+    padding-top: 13px;
+    color: #ffffff;
+}
+#tour .thumbnail {
+    margin-top: 30px;
+}
+hr.blueline {
+    border-bottom: 3px solid #2a77c9;
 }
