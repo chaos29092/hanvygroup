@@ -15,3 +15,13 @@ Route::get('/', function()
 {
 	return View::make('index');
 });
+
+Route::get('side', function()
+{
+    return View::make('sidebar_master');
+});
+
+Route::get('about', function()
+{
+    return View::make('page.about_us');
+});

@@ -58,13 +58,16 @@
 
         	<div class="container">
         	    <ul class="list-inline text-center">
+        	          <li><a href="">Index</a></li>
+        	          <li>|</li>
+        	          <li><a href="">Products</a></li>
+                      <li>|</li>
                       <li><a href="">Asphalt Mixing Plant</a></li>
                       <li>|</li>
                       <li><a href="">Concrete Mixing Plant</a></li>
                       <li>|</li>
-                      <li><a href="">Products</a></li>
-                      <li>|</li>
-                      <li><a href="">Index</a></li>
+
+                      <li><a href="">Contact</a></li>
                 </ul>
                 <p class="text-center">Copyright © Zhengzhou Hanvy Machinery And Equipment Co., Ltd.</p>
         	</div>

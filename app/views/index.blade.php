@@ -99,7 +99,7 @@
                             </div>
                     </div>
                     <div class="col-md-4">
-                    <div id="tour">
+                        <div id="tour">
                         <h4>FACTORY TOUR</h4>
                         </div>
                         <div class="thumbnail">
