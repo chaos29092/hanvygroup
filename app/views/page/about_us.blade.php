@@ -10,7 +10,7 @@
 
 @section('topimg')
     <div id="topimg">
-        <img src="{{asset('img/page/about.jpg')}}" class="img-responsive" alt=""/>
+        <img src="{{asset('img/page/about.jpg')}}" alt=""/>
     </div>
 @stop
 

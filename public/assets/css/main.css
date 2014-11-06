@@ -511,3 +511,7 @@ hr.blueline {
 #content-page hr {
     border-bottom:2px dotted #2a77c9;
 }
+
+#topimg img {
+    width: 100%;
+}
