@@ -25,39 +25,41 @@
 
         <hr/>
         <div id="contact">
-            <div class="container">
-                <h4>Please Fill Your Inquiry</h4>
-                {{ Form::open(array('url' => 'mailPost', 'class' => 'form-horizontal', 'role' => 'form' )) }}
-                <div class="form-group">
-                    {{ Form::label('email', 'E-mail', array('class' => 'col-md-1 control-label')) }}
-                    <div class="col-sm-4">
-                        {{ Form::email('email', null, array('placeholder'=>'youremail@example.com', 'class' => 'form-control'))
-                        }}
-                    </div>
-                </div>
 
-                <div class="form-group">
-                    {{ Form::label('subject', 'Name', array('class' => 'col-md-1 control-label')) }}
-                    <div class="col-sm-4">
-                        {{ Form::text('subject', null, array('placeholder' => 'your name', 'class' => 'form-control')) }}
-                    </div>
-                </div>
+                    <div class="row">
+                        <h4>Please Fill Your Inquiry</h4>
+                        {{ Form::open(array('url' => 'mailPost', 'class' => 'form-horizontal', 'role' => 'form' )) }}
+                        <div class="form-group">
+                            {{ Form::label('email', 'E-mail', array('class' => 'col-md-1 control-label')) }}
+                            <div class="col-md-6">
+                                {{ Form::email('email', null, array('placeholder'=>'youremail@example.com', 'class' => 'form-control'))
+                                }}
+                            </div>
+                        </div>
 
-                <div class="form-group">
-                    {{ Form::label('message', 'Message', array('class' => 'col-md-1 control-label')) }}
-                    <div class="col-sm-6">
-                        {{ Form::textarea('mes', null, array('class' => 'form-control', 'rows' => '8')) }}
-                    </div>
-                </div>
+                        <div class="form-group">
+                            {{ Form::label('subject', 'Name', array('class' => 'col-md-1 control-label')) }}
+                            <div class="col-md-6">
+                                {{ Form::text('subject', null, array('placeholder' => 'your name', 'class' => 'form-control')) }}
+                            </div>
+                        </div>
 
-                <div class="form-group">
-                    <div class="col-md-offset-1 col-sm-10">
-                        {{ Form::submit('send a message', array('class' => 'btn btn-primary')) }}
+                        <div class="form-group">
+                            {{ Form::label('message', 'Message', array('class' => 'col-md-1 control-label')) }}
+                            <div class="col-md-8">
+                                {{ Form::textarea('mes', null, array('class' => 'form-control', 'rows' => '8')) }}
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-md-offset-1 col-sm-10">
+                                {{ Form::submit('send a message', array('class' => 'btn btn-primary')) }}
+                            </div>
+                        </div>
+                        {{ Form::close() }}
                     </div>
+
                 </div>
-                {{ Form::close() }}
-            </div>
-        </div>
         <hr/>
     </div>
 @stop
