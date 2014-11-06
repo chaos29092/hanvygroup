@@ -20,7 +20,7 @@ Route::post('mailPost', function()
     $date = Input::all();
 
     Mail::send('emails.inquiry', array('subject'=>$date['subject'],'mes'=>$date['mes'],'email'=>$date['email']),function($message){
-        $message->to(array('admin@hanvyzj.com','vp05@hanvyzj.com'), 'inquiry')->subject('hanvy沥拌 - 英语 - 网站询盘');
+        $message->to(array('178399731@qq.com'), 'inquiry')->subject('hanvy沥拌 - 英语 - 网站询盘');
     });
 
     return Redirect::back()->with('message', 'Message Send Successfully! We will contact you as soon as possible.');

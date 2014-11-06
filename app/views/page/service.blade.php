@@ -42,42 +42,42 @@
         </dl>
 
         <hr/>
-
         <div id="contact">
+                    <div class="row">
+                        <h4>Please Fill Your Inquiry</h4>
+                        {{ Form::open(array('url' => 'mailPost', 'class' => 'form-horizontal', 'role' => 'form' )) }}
+                        <div class="form-group">
+                            {{ Form::label('email', 'E-mail', array('class' => 'col-md-1 control-label')) }}
+                            <div class="col-md-6">
+                                <input required placeholder="youremail@example.com" class="form-control" name="email" type="email" id="email">
+                            </div>
+                        </div>
 
-            <div class="row">
-                <h4>Please Fill Your Inquiry</h4>
-                {{ Form::open(array('url' => 'mailPost', 'class' => 'form-horizontal', 'role' => 'form' )) }}
-                <div class="form-group">
-                    {{ Form::label('email', 'E-mail', array('class' => 'col-md-1 control-label')) }}
-                    <div class="col-md-6">
-                        {{ Form::email('email', null, array('placeholder'=>'youremail@example.com', 'class' => 'form-control'))
-                        }}
+                        <div class="form-group">
+                            {{ Form::label('subject', 'Name', array('class' => 'col-md-1 control-label')) }}
+                            <div class="col-md-6">
+                                <input required placeholder="your name" class="form-control" name="subject" type="text" id="subject">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            {{ Form::label('message', 'Message', array('class' => 'col-md-1 control-label')) }}
+                            <div class="col-md-8">
+                                <textarea required class="form-control" rows="8" name="mes" cols="50"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-md-offset-1 col-sm-10">
+                                {{ Form::submit('send a message', array('class' => 'btn btn-primary')) }}
+                            </div>
+                        </div>
+                        {{ Form::close() }}
                     </div>
-                </div>
-
-                <div class="form-group">
-                    {{ Form::label('subject', 'Name', array('class' => 'col-md-1 control-label')) }}
-                    <div class="col-md-6">
-                        {{ Form::text('subject', null, array('placeholder' => 'your name', 'class' => 'form-control')) }}
-                    </div>
-                </div>
-
-                <div class="form-group">
-                    {{ Form::label('message', 'Message', array('class' => 'col-md-1 control-label')) }}
-                    <div class="col-md-8">
-                        {{ Form::textarea('mes', null, array('class' => 'form-control', 'rows' => '8')) }}
-                    </div>
-                </div>
-
-                <div class="form-group">
-                    <div class="col-md-offset-1 col-sm-10">
-                        {{ Form::submit('send a message', array('class' => 'btn btn-primary')) }}
-                    </div>
-                </div>
-                {{ Form::close() }}
-            </div>
-
+                <script src="{{asset('assets/js/jquery.validate.min.js')}}"></script>
+                <script>
+                $("form").validate();
+                </script>
         </div>
         <hr/>
     </div>
