@@ -43,7 +43,7 @@
                 </div>
             </div>
 
-            <div class="col-md-9">
+            <div class="col-md-9" id="content-page">
                 @yield('content_page')
             </div>
         </div>

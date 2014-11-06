@@ -106,7 +106,7 @@
                           <img src="{{asset('img/tour.jpg')}}" alt="...">
                           <div class="caption">
                             <p>Changchun Road11, Zhengzhou City, Henan Province,China</p>
-                            <p><a href="#" class="btn btn-primary btn-lg" role="button">Contact Us</a></p>
+                            <p><a href="{{url('contact')}}" class="btn btn-primary btn-lg" role="button">Contact Us</a></p>
                           </div>
                         </div>
                     </div>

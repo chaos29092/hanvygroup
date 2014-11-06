@@ -503,3 +503,11 @@ hr.blueline {
     background-color: #ec931f;
     border-color: #ec931f;
 }
+
+/*content page*/
+#content-page h4 {
+    color: #2a77c9;
+}
+#content-page hr {
+    border-bottom:2px dotted #2a77c9;
+}

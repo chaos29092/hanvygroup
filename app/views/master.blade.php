@@ -15,8 +15,7 @@
                                              This is the master sidebar.
                                           @show">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <link rel="shortcut icon" href="{{asset('img/favicon.ico')}}">
 
         <link rel="stylesheet" href="assets/css/normalize.css">
         <link rel="stylesheet" href="assets/css/main.css">
@@ -39,15 +38,15 @@
           <div class="container">
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
-                <a href="#"><button type="button" class="btn btn-sky text-uppercase btn-lg">home</button></a>
+                <a href="/"><button type="button" class="btn btn-sky text-uppercase btn-lg">home</button></a>
                 <a href="#"><button type="button" class="btn btn-sky text-uppercase btn-lg">products</button></a>
-                <a href="#"><button type="button" class="btn btn-sky text-uppercase btn-lg">factory tours</button></a>
-                <a href="#"><button type="button" class="btn btn-sky text-uppercase btn-lg">solution</button></a>
-                <a href="#"><button type="button" class="btn btn-sky text-uppercase btn-lg">service</button></a>
-                <a href="#"><button type="button" class="btn btn-sky text-uppercase btn-lg">customer visit</button></a>
-                <a href="#"><button type="button" class="btn btn-sky text-uppercase btn-lg">about us</button></a>
+                <a href="{{url('tour')}}"><button type="button" class="btn btn-sky text-uppercase btn-lg">factory tours</button></a>
+                <a href="{{url('solution')}}"><button type="button" class="btn btn-sky text-uppercase btn-lg">solution</button></a>
+                <a href="{{url('service')}}"><button type="button" class="btn btn-sky text-uppercase btn-lg">service</button></a>
+                <a href="{{url('customer_visit')}}"><button type="button" class="btn btn-sky text-uppercase btn-lg">customer visit</button></a>
+                <a href="{{url('about')}}"><button type="button" class="btn btn-sky text-uppercase btn-lg">about us</button></a>
                 <a href="#"><button type="button" class="btn btn-sky text-uppercase btn-lg">why us</button></a>
-                <a href="#"><button type="button" class="btn btn-sky text-uppercase btn-lg">contact</button></a>
+                <a href="{{url('contact')}}"><button type="button" class="btn btn-sky text-uppercase btn-lg">contact</button></a>
             </div><!-- /.navbar-collapse -->
           </div><!-- /.container-fluid -->
         </nav>
