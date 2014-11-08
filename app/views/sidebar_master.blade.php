@@ -19,13 +19,9 @@
                     <h4>PRODUCTS LIST</h4>
                 </div>
                 <div class="list-group">
-                  <a href="#" class="list-group-item active">
-                    Asphalt Mixing Plant
-                  </a>
-                  <a href="#" class="list-group-item">Asphalt Mixing Plant</a>
-                  <a href="#" class="list-group-item">Asphalt Mixing Plant</a>
-                  <a href="#" class="list-group-item">Asphalt Mixing Plant</a>
-                  <a href="#" class="list-group-item">Asphalt Mixing Plant</a>
+                  <a href="#" class="list-group-item">All Products</a>
+                  <a href="#" class="list-group-item">Mobile Asphalt Mixing Plant</a>
+                  <a href="#" class="list-group-item">Stationary Asphalt Mixing Plant</a>
                 </div>
                 <div class="well">
                     <h4>NEED HELP?</h4>
@@ -36,10 +32,11 @@
                     <br/><br/>
                     <p>or Email to us:</p>
                     <a href="mailto:info@nylyzj.com"><span class="glyphicon glyphicon-envelope"></span> info@nylyzj.com</a>
-                    <a href="{{url('contact')}}" target="_blank"><img src="{{asset('img/contact.gif')}}" alt=""/></a>
+                    <br/><br/>
+                    <a href="{{url('contact')}}" target="_blank"><img src="{{asset('img/contact.jpg')}}" class="img-responsive img-rounded center-block" alt=""/></a>
                 </div>
                 <div>
-                    <a href=""><img src="{{asset('img/whyus.jpg')}}" class="img-responsive" alt=""/></a>
+                    <a href=""><img src="{{asset('img/whyus.jpg')}}" class="img-responsive img-rounded" alt=""/></a>
                 </div>
             </div>
 

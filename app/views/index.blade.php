@@ -30,7 +30,7 @@
 
             {{--product list--}}
             <div class="container" id="productList">
-                <h4>PRODUCTS</h4>
+                <h3>PRODUCTS</h3>
             </div>
             <div class="container" id="productImg">
                 <div class="row">
@@ -79,7 +79,7 @@
             		<div class="col-md-8" id="indextab">
                         <div class="panel panel-primary">
                             <div class="panel-heading">
-                                <h3 class="panel-title"> >> ABOUT US</h3>
+                                <h3 class="panel-title"> ABOUT US</h3>
                                 <span class="pull-right">
 
                                 </span>

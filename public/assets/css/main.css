@@ -9,6 +9,17 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
+body {
+    font-family: Verdana, Geneva, Arial,sans-serif !important;
+}
+
+body h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
+    font-weight: bold !important;
+}
+
+body {
+    background-image: url("../../img/sandpaper.png");
+}
 
 html,
 button,
@@ -363,18 +374,18 @@ textarea {
 #productList {
     background-image: url("../../img/product_title.jpg");
     margin-top: 25px;
-    height: 30px;
+    height: 43px;
 }
-#productList h4 {
-    margin-top: 6px;
+#productList h3 {
+    margin-top: 9px;
     margin-bottom: 0px;
     margin-left: 30px;
     color: #ffffff;
 }
 #productImg {
     margin-top: 20px;
-    box-shadow: 10px 10px 20px #d6e3fa;
-    border-bottom:2px solid #2192ad;
+    /*box-shadow: 10px 10px 20px #d6e3fa;*/
+    border-bottom:2px solid #2a77c9;
 }
 
 
@@ -423,9 +434,17 @@ textarea {
     padding-left: 0px;
     font-size: 18px;
 }
+#indextab .panel-heading {
+    background-image: url("../../img/about_title.jpg");
+}
+#indextab h3 {
+    margin-left: 30px;
+}
+
 h3.panel-title {
     font-size: 20px;
 }
+
 
 .panel .panel-heading {
     border-radius: 0px;

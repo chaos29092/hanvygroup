@@ -21,7 +21,7 @@
         <div>
             <div class="media">
               <a class="media-left" href="">
-                <img src="{{asset('img/page/solution_1.jpg')}}" alt="Sell on credit">
+                <img src="{{asset('img/page/solution_1.jpg')}}" class="img-rounded" alt="Sell on credit">
               </a>
               <div class="media-body">
                 <h4 class="media-heading">Sell on credit</h4>
@@ -30,7 +30,7 @@
             </div>
             <div class="media">
               <a class="media-left" href="">
-                <img src="{{asset('img/page/solution_2.jpg')}}" alt="Product sourcing solution">
+                <img src="{{asset('img/page/solution_2.jpg')}}" class="img-rounded" alt="Product sourcing solution">
               </a>
               <div class="media-body">
                 <h4 class="media-heading">Product sourcing solution</h4>
@@ -39,7 +39,7 @@
             </div>
             <div class="media">
               <a class="media-left" href="">
-                <img src="{{asset('img/page/solution_3.jpg')}}" alt="Our Services">
+                <img src="{{asset('img/page/solution_3.jpg')}}" class="img-rounded" alt="Our Services">
               </a>
               <div class="media-body">
                 <h4 class="media-heading">Our Services</h4>

@@ -47,7 +47,7 @@
                         <h4>Please Fill Your Inquiry</h4>
                         {{ Form::open(array('url' => 'mailPost', 'class' => 'form-horizontal', 'role' => 'form' )) }}
                         <div class="form-group">
-                            {{ Form::label('email', 'E-mail', array('class' => 'col-md-1 control-label')) }}
+                            {{ Form::label('email', 'Email', array('class' => 'col-md-1 control-label')) }}
                             <div class="col-md-6">
                                 <input required placeholder="youremail@example.com" class="form-control" name="email" type="email" id="email">
                             </div>
