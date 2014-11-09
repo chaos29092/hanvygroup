@@ -10,10 +10,17 @@
 | and give it the Closure to execute when that URI is requested.
 |
 */
-Route::get('/', function()
-{
-	return View::make('index');
-});
+//page
+Route::get('/', 'PageController@index');
+Route::get('about', 'PageController@about');
+Route::get('contact', 'PageController@contact');
+Route::get('customer_visit', 'PageController@customerVisit');
+Route::get('service', 'PageController@service');
+Route::get('solution', 'PageController@solution');
+Route::get('tour', 'PageController@tour');
+Route::get('products/{category}', 'PageController@products');
+Route::get('product/mobile', 'PageController@product');
+
 //contact
 Route::post('mailPost', function()
 {
@@ -26,28 +33,3 @@ Route::post('mailPost', function()
     return Redirect::back()->with('message', 'Message Send Successfully! We will contact you as soon as possible.');
 });
 
-//page
-Route::get('about', function()
-{
-    return View::make('page.about_us');
-});
-Route::get('contact', function()
-{
-    return View::make('page.contact');
-});
-Route::get('customer_visit', function()
-{
-    return View::make('page.customer_visit');
-});
-Route::get('service', function()
-{
-    return View::make('page.service');
-});
-Route::get('solution', function()
-{
-    return View::make('page.solution');
-});
-Route::get('tour', function()
-{
-    return View::make('page.tour');
-});

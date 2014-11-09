@@ -17,10 +17,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="shortcut icon" href="{{asset('img/favicon.ico')}}">
 
-        <link rel="stylesheet" href="assets/css/normalize.css">
-        <link rel="stylesheet" href="assets/css/main.css">
+        <link rel="stylesheet" href="{{asset('assets/css/normalize.css')}}">
+        <link rel="stylesheet" href="{{asset('assets/css/main.css')}}">
         <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
-        <script src="assets/js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="{{asset('assets/js/vendor/modernizr-2.6.2.min.js')}}"></script>
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -39,7 +39,7 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
                 <a href="/"><button type="button" class="btn btn-sky text-uppercase btn-lg">home</button></a>
-                <a href="#"><button type="button" class="btn btn-sky text-uppercase btn-lg">products</button></a>
+                <a href="{{url('products/all')}}"><button type="button" class="btn btn-sky text-uppercase btn-lg">products</button></a>
                 <a href="{{url('tour')}}"><button type="button" class="btn btn-sky text-uppercase btn-lg">factory tours</button></a>
                 <a href="{{url('solution')}}"><button type="button" class="btn btn-sky text-uppercase btn-lg">solution</button></a>
                 <a href="{{url('service')}}"><button type="button" class="btn btn-sky text-uppercase btn-lg">service</button></a>
@@ -73,9 +73,9 @@
 
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.min.js"><\/script>')</script>
+        <script>window.jQuery || document.write('<script src="{{asset('assets/js/vendor/jquery.min.js')}}"><\/script>')</script>
         <script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+        <script src="{{asset('assets/js/plugins.js')}}"></script>
+        <script src="{{asset('assets/js/main.js')}}"></script>
     </body>
 </html>
